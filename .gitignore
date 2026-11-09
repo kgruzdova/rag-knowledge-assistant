@@ -1,0 +1,33 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and generated files
+venv*/
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local RAG databases and backups
+chroma_db*/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+
+# Installation artifacts and local tools
+.dependency-check/
+.qodo/
+.codex/
+.agents/
+.vscode/
+*.log
+Thumbs.db
+Desktop.ini

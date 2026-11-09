@@ -1,0 +1,27 @@
+# Python 3.10/3.11: фиксируем версии, чтобы pip не смешивал LangChain 0.3 и 1.x.
+openai==1.59.9
+httpx==0.28.1
+chromadb==1.5.9
+tiktoken==0.14.0
+numpy==1.26.4
+pandas==2.3.3
+datasets==3.6.0
+# Совместим с NumPy 1.26, включая сборку для Python 3.11.
+pyarrow==20.0.0
+sentence-transformers==6.2.0
+python-dotenv==1.2.4
+pysbd==0.3.4
+pydantic==2.14.3
+# Нужен при импорте ragas.prompt.multi_modal_prompt.
+Pillow==12.3.0
+
+# RAGAS использует ChatVertexAI из старого пути langchain-community.
+ragas==0.3.1
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-openai==0.3.0
+langchain-community==0.3.14
+langchain-text-splitters==0.3.5
+langsmith==0.2.11
+packaging==24.2
+
